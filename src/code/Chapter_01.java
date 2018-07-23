@@ -2,11 +2,14 @@ package code;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Chapter_One {
+public class Chapter_01 {
 
 	/**
 	 * Checks for repeated letters in the char array passed in, using Set<Character>
 	 * data structure and methods. Returns true if no letters were repeated.
+	 * <p>
+	 * Question 1.1
+	 * </p>
 	 * 
 	 * @param s - any given array of chars
 	 * @return
@@ -39,6 +42,9 @@ public class Chapter_One {
 	/**
 	 * Checks for repeated letters in the char array passed in.  No data structures
 	 * were used to solve the problem.
+	 * <p>
+	 * Question 1.1
+	 * </p>
 	 * 
 	 * @param s - any given array of chars
 	 * @return result - true if there no letters were repeated
@@ -64,7 +70,9 @@ public class Chapter_One {
 
 	/**
 	 * Checks if there is more than one of each letter.
-	 * 
+	 * <p>
+	 * Question 1.1
+	 * </p>
 	 * @param s - sorted char array of letters
 	 * @return noDuplicates - true if no repeated letters
 	 */
@@ -96,6 +104,9 @@ public class Chapter_One {
 	 * found then the whole array is sorted and returns true. If 
 	 * duplicates are found the method stops sorting and returns false.
 	 * From https://www.geeksforgeeks.org/quick-sort/
+	 * <p>
+	 * Question 1.1
+	 * </p>
 	 * 
 	 * @param letters - string to be sorted
 	 * @param low - starting index
@@ -120,6 +131,9 @@ public class Chapter_One {
 	 * position in the sorted array, and puts all smaller (smaller than pivot)
 	 * to the left and all the greater elements to the right of pivot.
 	 * From https://www.geeksforgeeks.org/quick-sort/
+	 * <p>
+	 * Question 1.1
+	 * </p>
 	 * 
 	 * @param letters - string to be sorted
 	 * @param low - starting index
